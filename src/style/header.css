@@ -1,0 +1,74 @@
+.logo {
+    height: 70px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    /* position: absolute; */
+    left: 0px;
+
+
+
+}
+
+
+.nav li a {
+    font-size: 23px !important;
+
+}
+
+.mobile-nav {
+
+display: none;
+
+}
+.mobile-login-signup , .mobile-menu-icon {
+    display: none;
+}
+
+
+/* There are we start the mobile csss */
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .login-signup {
+        display: none !important;
+    }
+
+    .nav li {
+        display: none;
+    }
+    .nav li a {
+    font-size: 12px !important;
+
+}
+    .logo {
+    height: 35px;
+    width: 100px;
+}
+.logo img {
+    height: 40px;
+    width: 100px;
+}
+.mobile-nav {
+
+display: block;
+
+}
+
+
+.mobile-login-signup , .mobile-menu-icon {
+    display: block;
+}
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}

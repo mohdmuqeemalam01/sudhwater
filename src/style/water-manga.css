@@ -1,0 +1,16 @@
+.myhead{
+
+    font-size: 50px;
+    font-weight: 700!important;
+    color:  #0b4474;
+
+}
+.myhead p{
+    font-size: 18px;
+}
+.manage{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+
+}

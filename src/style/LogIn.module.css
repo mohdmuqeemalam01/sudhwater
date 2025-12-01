@@ -1,0 +1,169 @@
+.main{
+     /* background-image: linear-gradient(to bottom, #05c3dd, rgba(11, 68, 116, 0.9)); */
+     height: 110%;
+     width: 100%;
+     padding-bottom:10% ;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     color: white;
+     gap:100px;
+
+
+   
+}
+.heading h1{
+    font-size: 80px;
+    color: #0c7385;
+    font-weight: 800;
+    padding-bottom: 20px;
+    /* text-align: center; */
+    /* margin-right: 20px; */
+}
+.heading p{
+    font-size: 28px;
+    font-weight: 400;
+    color: #086975;
+}
+.Form {
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #05c3dd, rgba(11, 68, 116, 0.9));
+    padding: 4%;
+    border-radius: 10px;
+    margin-top:7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.Form h1{
+    text-align: center;
+    color: white;
+    /* padding-top:2%; */
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    /* margin-left: 147px !important;; */
+}
+
+input{
+    background-color:white;
+    border: #05c3dd;
+    border-bottom: 2px solid white;
+    /* padding: 3%; */
+    border-radius:10px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.button{
+    border-radius: 12px;
+    margin-top: 10%;
+    background-color:#05c3dd ;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+}
+.utton{
+     border-radius: 12px;
+    margin-top: 10%;
+    background-color:#bee5ed ;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+    text-align: center;
+
+
+
+}
+
+
+.Sign{
+    padding: 20px;
+    text-align: center;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.Sign:hover{
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .button{
+        width:100%;
+         margin-top: 5%;
+    }
+    input{
+    background-color:white;
+    border: #05c3dd;
+    border-bottom: 2px solid white;
+    padding: 3%;
+    border-radius:10px;
+    width: 100%;
+    color: rgb(19, 151, 184);
+    font-size: 14px;
+    font-weight: 600;
+}
+.heading h1{
+    font-size: 80px;
+    color: #b1edf7;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.heading p{
+    text-align: center;
+}
+.Form {
+   
+     color: white;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: #05a0b4; 
+    background-image: linear-gradient(to bottom, #05c3dd, rgba(11, 68, 116, 0.9));
+    
+
+
+}
+
+.main{
+     /* background-image: linear-gradient(to bottom, #05c3dd, rgba(11, 68, 116, 0.9)); */
+     height: 110%;
+     width: 100%;
+     padding-bottom:10% ;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     color: white;
+     gap:100px;
+
+
+   
+}
+}

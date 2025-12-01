@@ -1,0 +1,85 @@
+.my{
+    display: flex;
+    justify-content: space-around;
+     
+   filter: brightness(110%);
+      background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url("image/home-bakc.png") no-repeat center/cover;     
+}
+
+
+/* .my::after {
+ 
+  background: rgb(167, 4, 4); 
+    
+    z-index: 1;
+      
+} */
+ .List{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 20px; */
+    padding: 20px;
+    background-color: rgba(11, 68, 116,0.5);
+    background-color: rgba(11, 68, 116,0.5);
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 10px black;/ */
+    max-width: 600px;
+
+    /* height: 400px; */
+ }
+ .List ul li{
+    opacity: 0.8;
+    list-style: none;
+    /* list-style-image: url("checkMark.ico"); */
+    list-style-image: url("image/waterdrop.png");
+
+
+    font-size: 20px;
+    font-weight: 380;
+    color: white;
+ }
+ .List ul{
+    padding-left: 20px;
+    margin-top: 20px;
+   
+ }
+ .List h3{
+    font-size: 60px;
+    font-weight: 700;
+ }
+  .rating{
+  height: 50px;
+  background-color: rgba(11, 68, 116,0.5);
+}
+
+ @media screen and (max-width: 768px) {
+    
+   .my{
+     flex-direction: column;
+     padding: 10px;
+     /* background-image: none; */
+   }
+   .image{
+    display: none;
+   }
+    .List ul li{
+  
+   font-size: 20px;
+    font-weight: 400;
+    color: white;
+ }
+ .List h3{
+    font-size: 40px;
+    font-weight: 600;
+ }
+
+
+ .rating{
+  height: 50px;
+  background-color: rgba(11, 68, 116,0.5);
+}
+ }

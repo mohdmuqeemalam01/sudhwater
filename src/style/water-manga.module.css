@@ -1,0 +1,102 @@
+.myhead{
+
+    font-size: 50px;
+    font-weight: 700!important;
+    color:  #0b4474;
+
+}
+.myhead p{
+    font-size: 18px;
+}
+.manage{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Imagebox{
+    border: 2px solid #0b4474;
+    border-radius: 30% 0 30% 0;
+    height: 80%;
+    margin-top:20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Imagebox img{
+    margin-top: 20px;
+}
+
+.box{
+    border: 2px solid #0b4474;
+    border-bottom-left-radius:50px ;
+    padding: 20px;
+    color: #0b4474;
+    position: relative;
+}
+.box h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.box div{
+    font-weight: 400;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    border: 2px solid #0b4474;
+    border-radius:50%;
+    position: absolute;
+    top: -15px;
+    right: -30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tank{
+      
+       
+    width: 100%;
+    background-image: url("image/truck_bakcground.png");
+    background-repeat: no-repeat;
+
+     
+
+}
+.tank img{
+    border-radius: 50px;
+}
+
+.waterDeli h3{
+    color: #0b4474;
+    font-size: 30px;
+    font-weight: 600;
+}
+.waterDeli ul li{
+    list-style-image:url("image/waterdrop.png");
+    /* color: #0b4474; */
+    font-size: 20px;
+
+}
+@media screen and (max-width: 768px) {
+    .myhead{
+
+    font-size: 25px;
+    font-weight: 600!important;
+    color:  #0b4474;
+
+}
+.tank{
+   padding: 100px;
+} 
+.tank img{
+    border-radius: 20px;
+    width: 96%;
+}
+
+
+}
